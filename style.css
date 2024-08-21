@@ -1,0 +1,19 @@
+
+nav{
+    border: solid rebeccapurple;
+    height: 10vh;
+}
+.MainPage{
+    border: solid black;
+    height: 80vh;
+    overflow: auto;
+}
+.MainPage::-webkit-scrollbar{
+    width: 0;
+}
+.MainPage div{
+    border: solid salmon;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
