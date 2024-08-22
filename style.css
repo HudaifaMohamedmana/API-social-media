@@ -1,29 +1,39 @@
-
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/03/41/32/38/360_F_341323809_iPCUliTOGf41jLepKLMWb6Gat0jHSgz1.jpg');
+    background-size: cover;
+}   
 nav{
     border: solid rebeccapurple;
     height: 10vh;
 }
 .MainPage{
-    border: solid black;
-    height: 80vh;
+    /* border: solid black; */
+    height: 90vh;
     overflow: auto;
 }
 .MainPage::-webkit-scrollbar{
     width: 0;
 }
 .postFram{
-    border: solid salmon;
-    height: 300px;
+    border: solid black;
+    /* height: 300px; */
     width: 300px;
     margin: auto;
+    position: relative;
+    margin-top: 1vh;
+    padding: 5px;
+}
+.PostImge{
+    /* position: absolute; */
+    width: 100%;
 }
 .reaction{
     height: 30px;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    border: solid rgb(0, 255, 94);
-    /* margin: 10em; */
+    /* border: solid rgb(0, 255, 94); */
+    /* position: absolute; */
 }
 .reaction img{
     height: 100%;

@@ -1,39 +1,9 @@
-// import* as postModule from './post.mjs' ;
-// postModule('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWi2b0msfkDvV2_M6i6ryYu-FB4vKIjME2YA&s');
+import{postsFrame} from './post.mjs' ;
+postsFrame('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWi2b0msfkDvV2_M6i6ryYu-FB4vKIjME2YA&s');
 
-const posts = document.querySelector('.MainPage');
- 
-function postsFrame(src) {
-    let newDiv = document.createElement('div')
-    newDiv.setAttribute('class','postFram');
-
-    let newImge = document.createElement('img')
-    newImge.setAttribute('src',src);
-
-    let reactionButtons = document.createElement('div')
-    reactionButtons.setAttribute('class','reaction');
-
-    let r1 =  document.createElement('img')
-    r1.setAttribute('src','https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Love_or_Heart_transparent.png/1124px-Love_or_Heart_transparent.png');
-    
-    let r2 =  document.createElement('img')
-    r2.setAttribute('src',"https://static.vecteezy.com/system/resources/thumbnails/018/741/992/small/white-origami-paper-plane-deliver-message-symbol-interface-theme-3d-icon-render-illustration-isolated-png.png");
-    
-    let r3 =  document.createElement('img')
-    r3.setAttribute('src','https://icons.iconarchive.com/icons/custom-icon-design/flatastic-1/512/comment-icon.png');
+postsFrame('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4dPkT7psW_yfhvCJBzUbg6VA_NBHp11obAw&s');
+postsFrame('https://media1.tenor.com/m/0oH_oZ43RxEAAAAd/luffy-gear-5.gif');
+postsFrame('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsoUNX2KDgKSaXD62GOjLQxEtpJ7NhyQ716Q&s');
+postsFrame('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShYs_23lhVgJYvyP-Xw4vE7bBcqPpESq_kEQ&s');
 
 
-
-    
-    reactionButtons.appendChild(r1);
-    reactionButtons.appendChild(r2);
-    reactionButtons.appendChild(r3); 
-
-    
-
-    newDiv.appendChild(newImge); 
-    newDiv.appendChild(reactionButtons);
-    posts.appendChild(newDiv);
-}
-
-postsFrame('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWi2b0msfkDvV2_M6i6ryYu-FB4vKIjME2YA&s')
