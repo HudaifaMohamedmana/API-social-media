@@ -11,9 +11,20 @@ nav{
 .MainPage::-webkit-scrollbar{
     width: 0;
 }
-.MainPage div{
+.postFram{
     border: solid salmon;
     height: 300px;
     width: 300px;
     margin: auto;
+}
+.reaction{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: solid rgb(0, 255, 94);
+    /* margin: 10em; */
+}
+.reaction img{
+    height: 100%;
 }
