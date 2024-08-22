@@ -1,11 +1,40 @@
 body{
-    background-image: url('https://t3.ftcdn.net/jpg/03/41/32/38/360_F_341323809_iPCUliTOGf41jLepKLMWb6Gat0jHSgz1.jpg');
+    background-image: url('https://wallpapers.com/images/hd/blue-and-red-background-1920-x-1200-8cicllve6ikzjm0j.jpg');
     background-size: cover;
 }   
 nav{
     border: solid rebeccapurple;
     height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
 }
+nav button{
+    height: 8vh;
+    width: 5vw;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 33px;
+    text-align: center;
+    cursor: pointer;
+}
+nav button:hover{
+    zoom: 105%;
+    background-color: rgb(0, 255, 51);
+    color: black;
+    border: solid black;
+
+}
+.clear:hover{
+    background-color: red;
+    color: white;
+
+}
+
+
 .MainPage{
     /* border: solid black; */
     height: 90vh;
@@ -22,6 +51,7 @@ nav{
     position: relative;
     margin-top: 1vh;
     padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .PostImge{
     /* position: absolute; */
@@ -37,4 +67,5 @@ nav{
 }
 .reaction img{
     height: 100%;
+    cursor: pointer;
 }
