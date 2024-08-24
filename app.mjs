@@ -30,6 +30,7 @@ document.querySelector('.MainPage').addEventListener('click', (event) => {
 
     } else if (event.target.classList.contains('comment')) {
         console.log('Comment button clicked');
+        prompt('Enter your comment');
 
     }
 });
