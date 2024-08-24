@@ -52,10 +52,13 @@ nav button:hover{
     margin-top: 1vh;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+
 }
 .PostImge{
     /* position: absolute; */
     width: 100%;
+    border-radius: 15px;
 }
 .reaction{
     height: 30px;
@@ -64,6 +67,10 @@ nav button:hover{
     justify-content: space-around;
     /* border: solid rgb(0, 255, 94); */
     /* position: absolute; */
+}
+.reaction button{
+    background-color: rgba(255, 255, 255, 0);
+    /* border: none; */
 }
 .reaction img{
     height: 100%;
