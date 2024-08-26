@@ -3,12 +3,14 @@ body{
     background-size: cover;
 }   
 nav{
-    border: solid rebeccapurple;
+    border: solid rgb(0, 0, 0);
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    background-color: #3131318f;
+    border-radius: 10px;
 
 }
 nav button{
